@@ -4,6 +4,8 @@
 #
 #
 #Bij amount1 kan je 0 ingeven, dan stopt het pas als je bij input 0 ingeeft.
+#
+#https://www.thomasmore.be/inschrijven/het-studiegeld-voor-bacheloropleidingen
 
 total = 0
 prijs = 0
@@ -32,4 +34,7 @@ max_uur = total * max_mp
 
 print("totaal studiepunten: " + str(total))
 print("Dat zijn tussen de " + str(min_uur) + "u en " + str(max_uur) + "u.")
-print("de prijs is: €" + str(prijs) + ".")
+print("de prijs is: €" + str(prijs))
+
+#zonder idle openen:
+input()
